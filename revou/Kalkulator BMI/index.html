@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Travel</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon" />
+    </head>
+        <!--main-->
+        <!---bagian 1-->
+        <section id="home">
+            <div class="mcontainer">
+                <div class="tagline">
+                    <h1>Kalkulator BMI</h1>
+                    <p>Berat badan ideal adalah impian semua orang. <br> Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. <br>Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI.</p>
+                </div>
+                <div class="maincontent">
+                    <div class="Llayout">
+                        <div class="form">
+                            <form action="/" id="formcal" method="post">
+                                <div class="input-control Hform">
+                                    <label for="tinggi">Tinggi Badan (Cm) :</label>
+                                    <input type="number" placeholder="Your Height" tabindex="1" required autofocus />
+                                </div>
+                                <div class="input-control Wform">
+                                    <label for="berat">Berat Badan (Kg) :</label>
+                                    <input type="number" placeholder="Your Weight" tabindex="2" required />
+                                </div>
+                                <div class="input-control Aform">
+                                    <label for="usia">Usia (Tahun) :</label>
+                                    <input type="number" placeholder="Your Age's" tabindex="3" required />
+                                </div>
+                                <div class="input-control Gform">
+                                    <label for="gender">Jenis Kelamin :</label>
+                                    <input type="radio" name="gender" id="male" value="male" />
+                                    <label for="male">Laki-laki</label>
+                                    <input type="radio" name="gender" id="female" value="female" />
+                                    <label for="female">Perempuan</label>
+                                </div>
+                                <button type="submit" name="submit" id="send">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="Rlayout">
+                    <div class="hasilbox">
+                        <div class="card">
+                            <div class="div-hasil">
+                                <h2 class="text-item2" id="text-hasil">BELUM ADA HASIL</h2>
+                                <h3 class="text-item2" id="keterangan"></h3>
+                                <h2 class="text-item2" id="output"></h2>
+                            </div>
+                            <div id="saran">
+                                <p id="hasil-bmi"></p>
+                                <p id="saran-hasil" style="text-align: justify;"></p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="call-section">
+                <div class="call-banner">
+                    <div class="call-title">
+                        <h1>Fitur Unggulan</h1>
+                    </div>
+                    <div class="benefit">
+                        <ul class="listinfo">
+                            <li>
+                                <div class="listnumber">1</div>
+                                <p class="listparagraph">Menghitung berat badan</p>
+                            </li>
+                            <li>
+                                <div class="listnumber">2</div>
+                                <p class="listparagraph">Menentukan kategori berat badan ideal atau tidak</p>
+                            </li>
+                            <li>
+                                <div class="listnumber">3</div>
+                                <p class="listparagraph">Mempersiapkan program penurunan berat badan</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="call-subtitle">
+                        <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter. <br><br>
+                            Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M2.</p>
+                    </div>
+                </div>
+                <div class="callnow">
+                    <a href="" >Registrasi Online Ahli Gizi</a>
+                    <a href="" >Konsultasi Ahli Gizi Via Aplikasi</a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
