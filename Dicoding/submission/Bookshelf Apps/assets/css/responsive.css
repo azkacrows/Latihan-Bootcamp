@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+    .navigation {
+        display: block;
+        width: 100%;
+        position: static;
+    }
+
+    .link {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .search-container {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .search-container > form > input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .book-container {
+        display: block;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        max-width: 100%;
+    }
+
+    .rack {
+        display: block;
+        width: 100%;
+    }
+
+    .rack h3 {
+        padding: 10px;
+        border: 1px solid white;
+    }
+
+    .sideflap {
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .pict {
+        border-radius: 5px;
+    }
+
+    .input-section {
+        position: relative;
+        align-items: center;
+    }
+
+    .input-section > h2 {
+        margin: 1rem;
+    }
+}
