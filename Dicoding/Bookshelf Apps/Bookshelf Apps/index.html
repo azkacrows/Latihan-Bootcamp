@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bookshelf apps</title>
+        <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+        <link
+            rel="stylesheet"
+            href="./assets/css/responsive.css"
+            type="text/css"
+        />
+    </head>
+    <body>
+        <main id="main">
+            <div class="navigation">
+                <div class="link">
+                    <a href="#book-list">Books</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Profile</a>
+                </div>
+                <div class="search-container">
+                    <form id="search-form">
+                        <input
+                            id="search-input"
+                            type="text"
+                            placeholder="Search.."
+                            name="search"
+                        />
+                        <button type="submit">
+                            <i id="search">Cari</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="book-container" id="book-list">
+                <div class="rack" id="bookshelf-incomplete">
+                    <h3>Buku Belum Dibaca</h3>
+                    <div class="book-rack" id="incomplete"></div>
+                </div>
+                <div class="rack" id="bookshelf-complete">
+                    <h3>Buku Selesai Dibaca</h3>
+                    <div class="book-rack" id="complete"></div>
+                </div>
+            </div>
+            <div class="sideflap">
+                <div class="pict"></div>
+                <div class="input-section">
+                    <h2>Masukkan Buku Baru</h2>
+                    <form id="inputBook">
+                        <div class="input">
+                            <label for="inputBookTitle">Judul :</label>
+                            <input id="inputBookTitle" type="text" required />
+                        </div>
+                        <div class="input">
+                            <label for="inputBookSubTitle">Sub-judul :</label>
+                            <input
+                                id="inputBookSubTitle"
+                                type="text"
+                                required
+                            />
+                        </div>
+                        <div class="input">
+                            <label for="inputBookAuthor">Penulis :</label>
+                            <input
+                                id="inputBookAuthor"
+                                type="text"
+                                maxlength="12"
+                                required
+                            />
+                        </div>
+                        <div class="input">
+                            <label for="inputBookYear">Tahun :</label>
+                            <input
+                                id="inputBookYear"
+                                type="number"
+                                min="1900"
+                                max="2023"
+                                required
+                            />
+                        </div>
+                        <div class="input-inline">
+                            <label for="inputBookIsComplete">
+                                Selesai dibaca
+                            </label>
+                            <input id="inputBookIsComplete" type="checkbox" />
+                        </div>
+                        <button id="bookSubmit" type="submit">
+                            Masukkan Buku ke rak
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
