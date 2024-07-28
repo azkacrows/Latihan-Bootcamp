@@ -1,0 +1,1 @@
+Catatan ini menjelaskan bahwasanya saya menggunakan keduanya (NGINX dan Apache2) guna mempermudah proses review.
